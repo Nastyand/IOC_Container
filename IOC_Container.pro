@@ -3,8 +3,9 @@ CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.cpp \
-    ioccontainer.cpp
+SOURCES += main.cpp
 
 HEADERS += \
-    ioccontainer.h
+    ioccontainer.h \
+    iprocessor.h \
+    computer.h
