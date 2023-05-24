@@ -41,10 +41,16 @@ public:
  };
 class IntelProcessor:public IProcessor
 {
+public:
+    IntelProcessor(){}
+    ~IntelProcessor(){}
 };
 
 class AMDProcessor:public IProcessor
 {
+public:
+    AMDProcessor(){}
+    ~AMDProcessor(){}
 };
 
 #endif // IPROCESSOR_H
